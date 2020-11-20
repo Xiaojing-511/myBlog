@@ -21,6 +21,11 @@ const themeConfig = {
                 { text: '开发工具', link: '/other/ide/' }
             ]
         },
+        {
+            text: 'Github',
+            link: 'https://github.com/Xiaojing-511/myBlog/tree/master',
+            target:'_blank'
+        }
     ],
     markdown: {
 
@@ -30,51 +35,51 @@ const themeConfig = {
         {
             title: 'Blog',   // 必要的
             path: '/Blog/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
-            collapsable: false, // 可选的, 默认值是 true,
+            // collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
             children: [
                 {
                     title:'Web',
                     path: '/Blog/Web/blog1/',
-                    // collapsable: false, // 可选的, 默认值是 true,
+                    collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
-                        ['/Blog/Web/blog1/','blog1'],
-                        ['/Blog/Web/blog2/','blog2']
+                        ['/Blog/Web/blog1/','我是如何走上前端路的'],
+                        ['/Blog/Web/blog2/','解决第一个子元素设置margin-top父元素会跟着移动'],
+                        ['/Blog/Web/blog3/','JavaScript中的var与作用域'],
                     ],
+                    // initialOpenGroupIndex: 0
                 },
                 {
                     title:'Deep learning',
                     path: '/Blog/Deep-learning/blog1/',
-                    // collapsable: false, // 可选的, 默认值是 true,
+                    collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
-                        ['/Blog/Deep-learning/blog1/','blog1'],
-                        ['/Blog/Deep-learning/blog2/','blog2']
-                    ]
+                        ['/Blog/Deep-learning/blog1/','使用LSTM进行情感分析'],
+                        ['/Blog/Deep-learning/blog2/','手写体数字识别(Hand-written digits recognition)'],
+                        ['/Blog/Deep-learning/blog3/','Tensorflow 2.0 利用十三层卷积神经网络实现cifar 100训练'],
+                    ],
+                    // initialOpenGroupIndex: 1
                 },
                 {
                     title:'Others',
                     path: '/Blog/Others/blog1/',
-                    // collapsable: false, // 可选的, 默认值是 true,
+                    collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
-                        ['/Blog/Others/blog1/','blog1'],
-                        ['/Blog/Others/blog2/','blog2']
-                    ]
+                        ['/Blog/Others/blog1/','如何每次随机出不同的数-Math.random()'],
+                        ['/Blog/Others/blog2/','Git初学者的实践总结(摘自廖老师)']
+                    ],
+                    // initialOpenGroupIndex: 2
                 }
                 
             ],
             initialOpenGroupIndex: 1
         },
     ],
+    searchMaxSuggestions: 10,
+    
 };
-
-// JavaScript
-// function concatJs() {
-//   const arr = utils.genSidebar( 'JStst', filehelper.getFileName(rootpath + '/JavaScript/'), false);
-//   arr.push(...utils.genSidebar('Js-Vue',filehelper.getFileName(rootpath + '/JavaScript/vue/', 'vue/'),false));
-//   return arr;
-// }
 
 module.exports = themeConfig;
