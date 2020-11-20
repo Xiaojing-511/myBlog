@@ -10,14 +10,14 @@ const themeConfig = {
             link: '/Resume/',
         },
         {
-            text: 'Blog',
+            text: 'Blogs',
             link: '/Blog/',
         },
         {
             text: 'Others',
             ariaLabel: 'Menu',
             items: [
-                { text: 'VuePress', link: '/other/vuepress/' },
+                { text: '与我联系', link: '/other/contact/' },
                 { text: '开发工具', link: '/other/ide/' }
             ]
         },
@@ -33,7 +33,7 @@ const themeConfig = {
     sidebar: [
         ['/Resume/','Resume'],
         {
-            title: 'Blog',   // 必要的
+            title: 'Blogs',   // 必要的
             path: '/Blog/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
             // collapsable: false, // 可选的, 默认值是 true,
             sidebarDepth: 2,    // 可选的, 默认值是 1
@@ -69,7 +69,8 @@ const themeConfig = {
                     sidebarDepth: 1, 
                     children: [
                         ['/Blog/Others/blog1/','如何每次随机出不同的数-Math.random()'],
-                        ['/Blog/Others/blog2/','Git初学者的实践总结(摘自廖老师)']
+                        ['/Blog/Others/blog2/','Git初学者的实践总结(摘自廖老师)'],
+                        ['/Blog/Others/blog3/','git提交代码(解决冲突)']
                     ],
                     // initialOpenGroupIndex: 2
                 }
