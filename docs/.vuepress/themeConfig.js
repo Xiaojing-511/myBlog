@@ -40,7 +40,7 @@ const themeConfig = {
             children: [
                 {
                     title:'Web',
-                    path: '/Blog/Web/blog1/',
+                    path: '/Blog/Web/',
                     collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
