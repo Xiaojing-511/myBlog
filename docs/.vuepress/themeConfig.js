@@ -40,8 +40,8 @@ const themeConfig = {
             children: [
                 {
                     title:'Web',
-                    path: '/Blog/Web/',
-                    collapsable: false, // 可选的, 默认值是 true,
+                    path: '/Blog/Web/blog1/',
+                    // collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
                         ['/Blog/Web/blog1/','我是如何走上前端路的'],
@@ -51,9 +51,19 @@ const themeConfig = {
                     // initialOpenGroupIndex: 0
                 },
                 {
+                    title:'Ant Design Vue',
+                    path: '/Blog/Ant/blog1/',
+                    // collapsable: false, // 可选的, 默认值是 true,
+                    sidebarDepth: 1, 
+                    children: [
+                        ['/Blog/Ant/blog1/','树选择组件选择框一行显示不换行']
+                    ],
+                    // initialOpenGroupIndex: 0
+                },
+                {
                     title:'Deep learning',
                     path: '/Blog/Deep-learning/blog1/',
-                    collapsable: false, // 可选的, 默认值是 true,
+                    // collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
                         ['/Blog/Deep-learning/blog1/','使用LSTM进行情感分析'],
@@ -65,7 +75,7 @@ const themeConfig = {
                 {
                     title:'Others',
                     path: '/Blog/Others/blog1/',
-                    collapsable: false, // 可选的, 默认值是 true,
+                    // collapsable: false, // 可选的, 默认值是 true,
                     sidebarDepth: 1, 
                     children: [
                         ['/Blog/Others/blog1/','如何每次随机出不同的数-Math.random()'],
