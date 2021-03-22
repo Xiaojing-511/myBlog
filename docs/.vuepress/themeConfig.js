@@ -7,7 +7,7 @@ const themeConfig = {
     nav: [
         {
             text: 'Resume',
-            link: '/Resume/',
+            link: '/Resume/myResume/',
         },
         {
             text: 'Blogs',
@@ -18,12 +18,11 @@ const themeConfig = {
             ariaLabel: 'Menu',
             items: [
                 { text: '与我联系', link: '/other/contact/' },
-                { text: '开发工具', link: '/other/ide/' }
             ]
         },
         {
             text: 'Github',
-            link: 'https://github.com/Xiaojing-511/myBlog/tree/master',
+            link: 'https://github.com/Xiaojing-511?tab=repositories',
             target:'_blank'
         }
     ],
@@ -31,7 +30,23 @@ const themeConfig = {
 
     },
     sidebar: [
-        ['/Resume/','Resume'],
+        {
+            title: 'Resume',
+            path: '/Resume/myResume/',
+            sidebarDepth: 1,
+            children: [
+                ['/Resume/myResume/','个人简历']
+            ]
+        },
+        {
+            title: 'Projects',
+            path: '/Projects/kanban/',
+            sidebarDepth: 1,
+            children: [
+                ['/Projects/kanban/','看板外化'],
+                ['/Projects/floatball/','悬浮球']
+            ]
+        },
         {
             title: 'Blogs',   // 必要的
             path: '/Blog/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
