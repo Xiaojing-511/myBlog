@@ -103,6 +103,17 @@ const themeConfig = {
             ],
             initialOpenGroupIndex: 1
         },
+        {
+            title: 'Notes',
+            path: '/Notes/note1/',
+            sidebarDepth: 1,
+            children: [
+                ['/Notes/note1/','随手记'],
+                ['/Notes/note2/','Nodejs'],
+                ['/Notes/note3/','todo'],
+
+            ]
+        },
     ],
     searchMaxSuggestions: 10,
     
