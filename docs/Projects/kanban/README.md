@@ -131,3 +131,14 @@ justify-content: center;
 14. 设置元素不可见 但保留占有位置 `visibility: hidden;`
 15. 父组件通过ref选择子组件 通过调用子组件内的函数控制显隐
 16. POST 参数data: params   GET 参数 params : params
+17. 自动滑到滚动条底部  [https://www.jb51.net/article/93425.htm](https://www.jb51.net/article/93425.htm) 注意：在nextTick中调用设置srcollTop (在mounted中设置因为有些数据未挂载导致元素高度不准->srcollHeight变小->不能滑动到底部)
+18. Antv g2plot柱状图横坐标label在safira下显示不全：
+配置
+
+```css
+label:{		offset: 15,
+            style: {
+              textBaseline: "middle",
+            },
+       }
+```

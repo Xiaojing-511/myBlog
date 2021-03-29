@@ -48,7 +48,7 @@ document.onclick = (e) => {
       ele.click();
       document.body.removeChild(ele);
 ```            
-12. 利用vue中的过滤器filter实现文字超出指定长度显示省略号
+11. 利用vue中的过滤器filter实现文字超出指定长度显示省略号
 ```bash
 <span class="icon">{{item.hashName | ellipsis}}</span>
 ```
