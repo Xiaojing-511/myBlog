@@ -142,3 +142,5 @@ label:{		offset: 15,
             },
        }
 ```
+19. getClientRects获取元素占据页面的所有矩形区域 <br>
+getBoundingClientRect用于获得页面中某个元素的左，上，右和下分别相对浏览器视窗的位置。
