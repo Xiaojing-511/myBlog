@@ -114,6 +114,7 @@ const themeConfig = {
                 ['/Notes/note1/','随手记'],
                 ['/Notes/note2/','Nodejs'],
                 ['/Notes/note3/','todo'],
+                ['/Notes/note4/','面经'],
 
             ]
         },
