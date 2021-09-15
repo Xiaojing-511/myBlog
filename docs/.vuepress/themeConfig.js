@@ -45,6 +45,7 @@ const themeConfig = {
             children: [
                 ['/Projects/kanban/','看板外化'],
                 ['/Projects/floatball/','悬浮球'],
+                ['/Projects/promotion/','优惠平台'],
                 ['/Projects/mobileMedia/','移动多媒体app'],
                 ['/Projects/qiuzhidi/','求职帝小程序'],
                 ['/Projects/todo/','每日便签'],
