@@ -40,9 +40,10 @@ const themeConfig = {
         },
         {
             title: 'Projects',
-            path: '/Projects/kanban/',
+            path: '/Projects/campus/',
             sidebarDepth: 1,
             children: [
+                ['/Projects/campus/','大学生校园交流网站'],
                 ['/Projects/kanban/','看板外化'],
                 ['/Projects/floatball/','悬浮球'],
                 ['/Projects/promotion/','优惠平台'],
