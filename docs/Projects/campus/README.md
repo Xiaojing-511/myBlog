@@ -2,6 +2,8 @@
 > 2022-3-24 18:15:23 
 <br>分类专栏：vue nodejs websocket
 
+在这里看操作效果哦~[演示视频地址](https://blog.csdn.net/qq_46363790/article/details/125160871)
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/aed5772be1b441cbb4a9c319b5b60750.png#pic_center)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/80eeec21816946c3a4c9d4d5efd93841.png#pic_center)
