@@ -38,6 +38,7 @@ const themeConfig = {
       sidebarDepth: 1,
       children: [
         ["/Projects/hokdo/", "hokdo-销售协作平台"],
+        ["/Projects/hokdosdk/", "hokdo-sdk"],
         ["/Projects/campus/", "大学生校园交流网站"],
         ["/Projects/kanban/", "看板外化"],
         ["/Projects/floatball/", "悬浮球"],

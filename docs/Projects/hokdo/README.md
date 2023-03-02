@@ -26,7 +26,7 @@
 
 - 增加一级/二级导航
 - 在 router.jsx -> outterRoutes 新增导航信息对象，二级导航则配置 subRoutes
-- 注意在导航组件 <NavSider /> 及 <SubSiderApp/> 中都要对 genSelectedKey 进行补充（配置路径对应关系）
+- 注意在导航组件 `<NavSider />` 及 `<SubSiderApp/>` 中都要对 genSelectedKey 进行补充（配置路径对应关系）
 - 注意权限导致的导航隐藏情况
 - 若二级导航均无权限则对应的一级导航也隐藏
 - 权限可分为：是否为管理员以及自定义角色下配置的权限（user.permission_list）
